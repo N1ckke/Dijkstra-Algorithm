@@ -21,7 +21,7 @@ public class Dijkstra {
             }
         }
         for (int i = 0; i < n; i++) {
-            System.out.println("Distanza minima dal nodo " + startNode.getId() + " al nodo " + i + " : " + startNode.link.get(i));        //TODO: da sistemare la stampa della distanza dato che mi da la distanza dello startNode come giusto che sia da codice scritto
+            System.out.println("Distanza minima dal nodo " + startNode.getId() + " al nodo " + i + " : " + startNode.getDistance());        //TODO: da sistemare la stampa della distanza dato che mi da la distanza dello startNode come giusto che sia da codice scritto
         }
     }
 }
